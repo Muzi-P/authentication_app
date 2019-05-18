@@ -1,0 +1,35 @@
+{
+  "name": "authentication_app",
+  "version": "1.0.0",
+  "description": "A complete authentication app with login, register and access control using Node.js, Express, Passport, Mongoose and more.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muzi-P/authentication_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muzi-P/authentication_app/issues"
+  },
+  "homepage": "https://github.com/Muzi-P/authentication_app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.0",
+    "ejs": "*",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.9",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
